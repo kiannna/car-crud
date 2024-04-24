@@ -19,7 +19,7 @@ export default class AppNavbar extends Component {
         return <div style={{position: 'relative'}}>
         <Navbar color="dark" dark expand="md">
             <NavbarBrand tag={Link} to="/" style={{marginLeft: 10}}>Home</NavbarBrand>
-            <p style={{position: 'absolute', color: 'white', right: 30, top: 16}}>Kianna M. Reyes - IT3A</p>
+            <p style={{position: 'absolute', color: 'white', right: 30, top: 16}}> Kianna M. Reyes - IT3A</p>
         </Navbar>
     </div>
     }
